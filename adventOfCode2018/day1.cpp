@@ -19,17 +19,17 @@ int main() {
 	inputFile.open("/Users/jenniferstrasser/adventOfCode2018/adventOfCode2018/day1.txt", ios::in);
 
 	// Part 1
-	string line;
-	int count = 0;
-	std::string::size_type sz;
-	if (inputFile.is_open()) {
-		while (getline(inputFile, line)) {
-			frequency += std::stoi(line,&sz);
-			frequencyArray[count] = frequency;
-			count++;
-		}
-	}
-	cout << "Ending frequency is: " << frequency << endl;
+//	string line;
+//	int count = 0;
+//	std::string::size_type sz;
+//	if (inputFile.is_open()) {
+//		while (getline(inputFile, line)) {
+//			frequency += std::stoi(line,&sz);
+//			frequencyArray[count] = frequency;
+//			count++;
+//		}
+//	}
+//	cout << "Ending frequency is: " << frequency << endl;
 
 
 
